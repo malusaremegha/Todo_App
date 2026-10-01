@@ -5,7 +5,7 @@ using ToDo_App.Services;
 namespace ToDo_App.Controllers;
 
 [ApiController]
-[Route("api/todo")]
+[Route("api/todos")]
 public class TodoController : ControllerBase
 {
     private readonly ITodoService _todoService;
